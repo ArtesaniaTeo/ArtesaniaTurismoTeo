@@ -1,0 +1,110 @@
+package com.bosdias.turismoteo
+
+
+import android.content.Intent
+import android.net.Uri
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+import android.widget.*
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+
+        val tv1 = findViewById<TextView>(R.id.tv1)
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
+        logoTeo.setOnClickListener {startActivity(Intent
+            (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+
+        }
+        val informacionBoton = findViewById<ImageButton>(R.id.informacionBoton)
+        informacionBoton.setOnClickListener {startActivity(Intent
+            (Intent.ACTION_VIEW, Uri.parse("https://www.teo.gal/")))
+
+        }
+        val botonFacebook = findViewById<ImageButton>(R.id.botonFacebook)
+        botonFacebook.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
+        }
+        val botonInstagram = findViewById<ImageButton>(R.id.botonInstagram)
+        botonInstagram.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
+        }
+        val botonTwitter = findViewById<ImageButton>(R.id.botonTwitter)
+        botonTwitter.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
+        }
+
+
+
+        val brigantiaOrfebre = findViewById<Button>(R.id.boton1)
+        brigantiaOrfebre.setOnClickListener {
+            val acceder = Intent(this, BrigantiaOrfebres::class.java)
+            startActivity(acceder)
+        }
+        val oliXiraldez = findViewById<Button>(R.id.boton2)
+        oliXiraldez.setOnClickListener {
+            val acceder = Intent(this, OliXiraldez::class.java)
+            startActivity(acceder)
+        }
+        val silvereira = findViewById<Button>(R.id.boton3)
+        silvereira.setOnClickListener {
+            val acceder = Intent(this, Silvereira::class.java)
+            startActivity(acceder)
+        }
+        val spacioB = findViewById<Button>(R.id.boton4)
+        spacioB.setOnClickListener {
+            val acceder = Intent(this, SpaciobInteriorismo::class.java)
+            startActivity(acceder)
+        }
+        val rosamendez = findViewById<Button>(R.id.boton5)
+        rosamendez.setOnClickListener {
+            val acceder = Intent(this, RosaMendez::class.java)
+            startActivity(acceder)
+        }
+        val macala = findViewById<Button>(R.id.boton6)
+        macala.setOnClickListener {
+            val acceder = Intent(this, MacalaXoias::class.java)
+            startActivity(acceder)
+        }
+        val tresOficios = findViewById<Button>(R.id.boton7)
+        tresOficios.setOnClickListener {
+            val acceder = Intent(this, TresOficios::class.java)
+            startActivity(acceder)
+        }
+        val arteCelta = findViewById<Button>(R.id.boton8)
+        arteCelta.setOnClickListener {
+            val acceder = Intent(this, ArteCelta::class.java)
+            startActivity(acceder)
+        }
+        val alalaCouture = findViewById<Button>(R.id.boton9)
+        alalaCouture.setOnClickListener {
+            val acceder = Intent(this, AlalaCouture::class.java)
+            startActivity(acceder)
+        }
+        val iagoSalgado = findViewById<Button>(R.id.boton10)
+        iagoSalgado.setOnClickListener {
+            val acceder = Intent(this, IagoSalgado::class.java)
+            startActivity(acceder)
+        }
+        val pabloSeoane = findViewById<Button>(R.id.boton11)
+        pabloSeoane.setOnClickListener {
+            val acceder = Intent(this, PabloSeoane::class.java)
+            startActivity(acceder)
+        }
+        val olgaMartinez = findViewById<Button>(R.id.boton12)
+        olgaMartinez.setOnClickListener {
+            val acceder = Intent(this, OlgaMartinez::class.java)
+            startActivity(acceder)
+        }
+
+
+    }
+
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TresOficios">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="20dp"
+                android:text="TresOficios"
+                android:textColor="#94bb32"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@mipmap/tresoficios" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="30dp"
+                android:text="Ebanistería, deseño e restauración madeira-coiro-ferro"
+                android:textColor="#51661c"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="40dp"
+                android:text="Rodrigo Mosquera"
+                android:textColor="#51661c"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="40dp"
+                android:text="Páxina web"
+                android:textColor="#51661c"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="40dp"
+                android:text="+34 696501621 \n+34 981805874"
+                android:textColor="#51661c"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:id="@+id/layoutMaps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animamaps"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:minWidth="48dp"
+                    app:srcCompat="@drawable/mapsnegro"
+                    app:tint="#00989898" />
+
+
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="A Grela, 02. Lampai. \n15883, Teo."
+                    android:textColor="#51661c"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="1dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/fbBoton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/facebookanima"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/facebook"
+                    app:tint="#00FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/igBoton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/animainstagram"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/instagram"
+                    app:tint="#00FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+                <ImageButton
+                    android:id="@+id/botonCorreo"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/animacorreo"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/gmail"
+                    app:tint="#00FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

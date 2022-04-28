@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Turismo Teo</string>
+    <string name="artesania">ARTESANÍA</string>
+    <string name="brigantia">Brigantia orfebres</string>
+    <string name="oliXiraldez">Oli Xiráldez</string>
+    <string name="silvereira">Silvereira</string>
+    <string name="spacioBInteriorismo">Spacio b interiorismo</string>
+    <string name="macala">Macala xoias</string>
+    <string name="rosamendez">rosamendez</string>
+    <string name="tresOficios">Tres Oficios</string>
+    <string name="olgaMartinez">Olga Martínez</string>
+    <string name="pabloSeoane">Pablo Seoane</string>
+    <string name="iagoSalgado">Iago Salgado</string>
+    <string name="arteCelta">Arte Celta e Rupestre</string>
+    <string name="alala">Alalá Couture</string>
+
+    <string name="xoiariaCreativa">Xoiaría creativa</string>
+    <string name="desenhoModa">Deseño moda</string>
+    <string name="instrumentosMusicais">Instrumentos musicais</string>
+
+    <string name="paxinaWeb">Páxina web</string>
+
+    <string name="brigantiaArtesan">Nuria Prado Baamonde</string>
+    <string name="brigantiaDireccion">Rúa de San Pedro, 79</string>
+    <string name="brigantiaTelefono">+34 682293304</string>
+    <string name="brigantiaCorreo">brigantiaorfebres@gmail.com</string>
+
+     <string name="alalaArtesan">Alex Regueiro</string>
+    <string name="alalaDireccion">Santo Domingo, 81.\n15866 Teo</string>
+    <string name="alalaTelefono">+34 981806528</string>
+    <string name="alalaCorreo">atelier@alalacouture.com</string>
+
+     <string name="arteCeltaArtesan">Pablo Leal</string>
+    <string name="arteCeltaDireccion">Agoso, 41, \n15886 Ribeira</string>
+    <string name="arteCeltaTelefono">+34 981 809 464</string>
+    <string name="arteCeltaCorreo">info@pabloleal.com</string>
+    <string name="arteCeltaDescricion">Artesanía con metais, latón, inox, bronce.</string>
+
+    <string name="iagoSalgadoDireccion">Vilanova s/n, Recesende. \n15886 Teo</string>
+    <string name="iagoSalgadoTelefono">+34 625876502</string>
+    <string name="iagoSalgadoCorreo">salgadoiago@gmail.com</string>
+
+    <string name="pabloSeoaneDireccion">Vilanova s/n, Recesende. \n15886 Teo</string>
+    <string name="pabloSeoaneTelefono">+34 657810611</string>
+    <string name="pabloSeoaneCorreo">obradoiroseoane@gmail.com</string>
+
+    <string name="macalaXoiasArtesan">Mari Carmen</string>
+    <string name="macalaXoiasDireccion">Casaldomiro, Teo</string>
+    <string name="macalaXoiasTelefono">+34 696501621</string>
+    <string name="macalaXoiasCorreo">info@macalajoyas.com</string>
+    <string name="macalaXoiasDescricion">Xoiaría de autora</string>
+
+    <string name="olgaMartinezDireccion">Travesia de Cacheiras, 12</string>
+    <string name="olgaMartinezTelefono">+34 981806550</string>
+    <string name="olgaMartinezCorreo">olgamartinezg@hotmail.com</string>
+    <string name="olgaMartinezDescricion">Vestidos para casamentos</string>
+
+    <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
+    <string name="oliXiraldezTelefono">+34 629421544</string>
+    <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
+    <string name="oliXiraldezDescricion">Lutier de instrumentos musicais, nomeadamente gaitas e frautas.</string>
+
+    <string name="rosaMendezArtesan">Rosa Méndez</string>
+    <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
+    <string name="rosaMendezTelefono">+34 981523146\n+34 667266098</string>
+    <string name="rosaMendezCorreo">rosa@rosamendez.com</string>
+    <string name="rosaMendezDescricion">Xoiaría con vidro</string>
+
+    <string name="silvereiraArtesan">Juan Jesús Fernández Lamas</string>
+    <string name="silvereiraDireccion">Aldea Raíces, 22\n15895 Ames</string>
+    <string name="silvereiraTelefono">+34 981548659</string>
+    <string name="silvereiraCorreo">info@silvereira.com</string>
+
+    <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
+    <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
+    <string name="spacioBInteriorismoTelefono">+34 639504102</string>
+    <string name="spacioBInteriorismoCorreo">info@spaciob.com</string>
+    <string name="spacioBInteriorismoDescricion">Interiorismo</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bosdias.turismoteo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TurismoTeo">
+
+        <!-- <activity -->
+        <!-- android:name=".maps" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".OliXiraldez"
+            android:exported="false" />
+        <activity
+            android:name=".OlgaMartinez"
+            android:exported="false" />
+        <activity
+            android:name=".PabloSeoane"
+            android:exported="false" />
+        <activity
+            android:name=".IagoSalgado"
+            android:exported="false" />
+        <activity
+            android:name=".AlalaCouture"
+            android:exported="false" />
+        <activity
+            android:name=".ArteCelta"
+            android:exported="false" />
+        <activity
+            android:name=".TresOficios"
+            android:exported="false" />
+        <activity
+            android:name=".MacalaXoias"
+            android:exported="false" />
+        <activity
+            android:name=".RosaMendez"
+            android:exported="false" />
+        <activity
+            android:name=".SpaciobInteriorismo"
+            android:exported="false" />
+        <activity
+            android:name=".Silvereira"
+            android:exported="false" />
+        <activity
+            android:name=".BrigantiaOrfebres"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
