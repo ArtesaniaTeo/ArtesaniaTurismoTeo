@@ -25,12 +25,12 @@
     <string name="brigantiaTelefono">+34 682293304</string>
     <string name="brigantiaCorreo">brigantiaorfebres@gmail.com</string>
 
-     <string name="alalaArtesan">Alex Regueiro</string>
+    <string name="alalaArtesan">Alex Regueiro</string>
     <string name="alalaDireccion">Santo Domingo, 81.\n15866 Teo</string>
     <string name="alalaTelefono">+34 981806528</string>
     <string name="alalaCorreo">atelier@alalacouture.com</string>
 
-     <string name="arteCeltaArtesan">Pablo Leal</string>
+    <string name="arteCeltaArtesan">Pablo Leal</string>
     <string name="arteCeltaDireccion">Agoso, 41, \n15886 Ribeira</string>
     <string name="arteCeltaTelefono">+34 981 809 464</string>
     <string name="arteCeltaCorreo">info@pabloleal.com</string>
@@ -55,6 +55,7 @@
     <string name="olgaMartinezCorreo">olgamartinezg@hotmail.com</string>
     <string name="olgaMartinezDescricion">Vestidos para casamentos</string>
 
+    <string name="oliXiraldezArtesan">Oli Xiráldez Ríos</string>
     <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
     <string name="oliXiraldezTelefono">+34 629421544</string>
     <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
@@ -76,5 +77,11 @@
     <string name="spacioBInteriorismoTelefono">+34 639504102</string>
     <string name="spacioBInteriorismoCorreo">info@spaciob.com</string>
     <string name="spacioBInteriorismoDescricion">Interiorismo</string>
+
+    <string name="tresOficiosArtesan">Rodrigo Mosquera</string>
+    <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
+    <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
+    <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
+    <string name="tresOficiosDescricion">Ebanistería, deseño e restauración madeira-coiro-ferro</string>
 
 </resources>
