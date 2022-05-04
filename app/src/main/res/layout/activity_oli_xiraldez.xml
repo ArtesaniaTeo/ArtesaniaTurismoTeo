@@ -42,7 +42,7 @@
             <LinearLayout
                 android:id="@+id/layoutHorizontalPpal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="250dp"
                 android:orientation="horizontal">
 
 
@@ -55,14 +55,13 @@
                         android:id="@+id/layoutNome"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
+                        android:layout_marginStart="45dp"
                         android:orientation="horizontal">
 
                         <ImageView
                             android:id="@+id/iconoPersona"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:layout_marginTop="10dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/persoa" />
 
@@ -71,8 +70,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="25dp"
-                            android:text="@string/oliXiraldez"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/oliXiraldezArtesan"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -82,15 +81,15 @@
                         android:id="@+id/layoutMaps"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
+                        android:layout_marginStart="45dp"
                         android:layout_marginEnd="20dp"
+                        android:layout_marginTop="5dp"
                         android:orientation="horizontal">
 
                         <ImageButton
                             android:id="@+id/maps"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:layout_marginTop="25dp"
                             android:layout_weight="1"
                             android:background="@drawable/animamaps"
                             android:contentDescription="@string/appbar_scrolling_view_behavior"
@@ -104,8 +103,7 @@
                             android:id="@+id/tv9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="25dp"
-                            android:layout_marginTop="25dp"
+                            android:layout_marginStart="20dp"
                             android:text="@string/oliXiraldezDireccion"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
@@ -115,8 +113,8 @@
                         android:id="@+id/layoutTelf"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="5dp"
                         android:orientation="horizontal">
 
 
@@ -124,8 +122,6 @@
                             android:id="@+id/botonTelefono"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-
-                            android:layout_marginTop="20dp"
                             android:background="@drawable/animatelefono"
                             android:contentDescription="@string/appbar_scrolling_view_behavior"
                             android:scaleType="fitXY"
@@ -138,7 +134,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="25dp"
+                            android:layout_marginTop="10dp"
                             android:text="@string/oliXiraldezTelefono"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
@@ -148,7 +144,8 @@
                         android:id="@+id/layoutMail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="45dp"
                         android:orientation="horizontal">
 
 
@@ -156,7 +153,6 @@
                             android:id="@+id/botonCorreo"
                             android:layout_width="45dp"
                             android:layout_height="30dp"
-                            android:layout_marginTop="20dp"
                             android:background="@drawable/animacorreo"
                             android:contentDescription="@string/appbar_scrolling_view_behavior"
                             android:scaleType="fitXY"
@@ -169,7 +165,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
-                            android:layout_marginTop="25dp"
+                            android:layout_marginTop="5dp"
                             android:text="@string/oliXiraldezCorreo"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
@@ -178,16 +174,16 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
+                        android:layout_marginStart="45dp"
                         android:layout_marginEnd="15dp"
-                        android:layout_marginBottom="1dp"
+                        android:layout_marginBottom="10dp"
                         android:orientation="horizontal">
 
                         <ImageButton
                             android:id="@+id/fbBoton"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:layout_marginTop="40dp"
+                            android:layout_marginTop="15dp"
                             android:background="@drawable/facebookanima"
                             android:contentDescription="@string/appbar_scrolling_view_behavior"
                             android:scaleType="fitXY"
@@ -204,10 +200,10 @@
 
                 <ImageView
                     android:id="@+id/imgVector"
-                    android:layout_width="200dp"
-                    android:layout_height="350dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
                     android:layout_marginStart="-20dp"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
                     app:srcCompat="@mipmap/vectortaller"
@@ -226,7 +222,7 @@
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="220dp"
-                    android:layout_marginStart="25dp"
+                    android:layout_marginStart="20dp"
                     app:srcCompat="@mipmap/olixiraldez" />
 
                 <TextView
@@ -269,8 +265,8 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
-                    android:layout_height="48dp"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="-20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
@@ -310,7 +306,7 @@
                     android:id="@+id/info"
                     android:layout_width="55dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
+                    android:layout_marginLeft="160dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"

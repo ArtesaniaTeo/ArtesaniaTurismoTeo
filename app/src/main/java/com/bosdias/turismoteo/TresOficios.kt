@@ -42,5 +42,25 @@ class TresOficios : AppCompatActivity() {
             intent.setPackage("com.google.android.gm")
             startActivity(Intent.createChooser(intent, "Send mail"))
         }
+        val facebook = findViewById<ImageButton>(R.id.facebook)
+        facebook.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
+        }
+        val twitter = findViewById<ImageButton>(R.id.twitter)
+        twitter.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
+        }
+        val instagram = findViewById<ImageButton>(R.id.instagram)
+        instagram.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/")))
+        }
+        val wikiloc = findViewById<ImageButton>(R.id.wikiloc1)
+        wikiloc.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/wikiloc/user.do?id=6776439")))
+        }
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

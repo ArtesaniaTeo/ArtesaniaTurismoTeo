@@ -43,62 +43,62 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        val brigantiaOrfebre = findViewById<Button>(R.id.boton1)
+        val brigantiaOrfebre = findViewById<ImageButton>(R.id.boton1)
         brigantiaOrfebre.setOnClickListener {
             val acceder = Intent(this, BrigantiaOrfebres::class.java)
             startActivity(acceder)
         }
-        val oliXiraldez = findViewById<Button>(R.id.boton2)
+        val oliXiraldez = findViewById<ImageButton>(R.id.boton2)
         oliXiraldez.setOnClickListener {
             val acceder = Intent(this, OliXiraldez::class.java)
             startActivity(acceder)
         }
-        val silvereira = findViewById<Button>(R.id.boton3)
+        val silvereira = findViewById<ImageButton>(R.id.boton3)
         silvereira.setOnClickListener {
             val acceder = Intent(this, Silvereira::class.java)
             startActivity(acceder)
         }
-        val spacioB = findViewById<Button>(R.id.boton4)
+        val spacioB = findViewById<ImageButton>(R.id.boton4)
         spacioB.setOnClickListener {
             val acceder = Intent(this, SpaciobInteriorismo::class.java)
             startActivity(acceder)
         }
-        val rosamendez = findViewById<Button>(R.id.boton5)
+        val rosamendez = findViewById<ImageButton>(R.id.boton5)
         rosamendez.setOnClickListener {
             val acceder = Intent(this, RosaMendez::class.java)
             startActivity(acceder)
         }
-        val macala = findViewById<Button>(R.id.boton6)
+        val macala = findViewById<ImageButton>(R.id.boton6)
         macala.setOnClickListener {
             val acceder = Intent(this, MacalaXoias::class.java)
             startActivity(acceder)
         }
-        val tresOficios = findViewById<Button>(R.id.boton7)
+        val tresOficios = findViewById<ImageButton>(R.id.boton7)
         tresOficios.setOnClickListener {
             val acceder = Intent(this, TresOficios::class.java)
             startActivity(acceder)
         }
-        val arteCelta = findViewById<Button>(R.id.boton8)
+        val arteCelta = findViewById<ImageButton>(R.id.boton8)
         arteCelta.setOnClickListener {
             val acceder = Intent(this, ArteCelta::class.java)
             startActivity(acceder)
         }
-        val alalaCouture = findViewById<Button>(R.id.boton9)
+        val alalaCouture = findViewById<ImageButton>(R.id.boton9)
         alalaCouture.setOnClickListener {
             val acceder = Intent(this, AlalaCouture::class.java)
             startActivity(acceder)
         }
-        val iagoSalgado = findViewById<Button>(R.id.boton10)
+        val iagoSalgado = findViewById<ImageButton>(R.id.boton10)
         iagoSalgado.setOnClickListener {
             val acceder = Intent(this, IagoSalgado::class.java)
             startActivity(acceder)
         }
-        val pabloSeoane = findViewById<Button>(R.id.boton11)
+        val pabloSeoane = findViewById<ImageButton>(R.id.boton11)
         pabloSeoane.setOnClickListener {
             val acceder = Intent(this, PabloSeoane::class.java)
             startActivity(acceder)
         }
-        val olgaMartinez = findViewById<Button>(R.id.boton12)
+        val olgaMartinez = findViewById<ImageButton>(R.id.boton12)
         olgaMartinez.setOnClickListener {
             val acceder = Intent(this, OlgaMartinez::class.java)
             startActivity(acceder)

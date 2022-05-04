@@ -439,7 +439,7 @@
                 android:layout_marginBottom="40dp"
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
-                app:srcCompat="@mipmap/trisquel"
+                app:srcCompat="@mipmap/sofa"
                 app:tint="#7F000000" />
 
         </LinearLayout>
@@ -456,6 +456,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="220dp"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 app:srcCompat="@mipmap/spaciobinteriorismo" />
 
             <TextView
