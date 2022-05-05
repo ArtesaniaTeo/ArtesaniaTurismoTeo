@@ -270,8 +270,8 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
-                    android:layout_height="48dp"
+                    android:layout_width="52dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="-20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
