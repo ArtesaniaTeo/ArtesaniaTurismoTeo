@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Turismo Teo</string>
     <string name="artesania">ARTESANÍA</string>
@@ -5,7 +6,7 @@
     <string name="oliXiraldez">Oli Xiráldez</string>
     <string name="silvereira">Silvereira</string>
     <string name="spacioBInteriorismo">Spacio b interiorismo</string>
-    <string name="macala">Macala joyas</string>
+    <string name="macala">Macala xoias</string>
     <string name="rosamendez">rosamendez</string>
     <string name="tresOficios">Tres Oficios</string>
     <string name="olgaMartinez">Olga Martínez</string>
@@ -14,11 +15,11 @@
     <string name="arteCelta">Arte Celta e Rupestre</string>
     <string name="alala">Alalá Couture</string>
 
-    <string name="xoiariaCreativa">Joyería creativa</string>
-    <string name="desenhoModa">Diseño moda</string>
-    <string name="instrumentosMusicais">Instrumentos musicales</string>
+    <string name="xoiariaCreativa">Xoiaría creativa</string>
+    <string name="desenhoModa">Deseño moda</string>
+    <string name="instrumentosMusicais">Instrumentos musicais</string>
 
-    <string name="paxinaWeb">Página web</string>
+    <string name="paxinaWeb">Páxina web</string>
 
     <string name="brigantiaArtesan">Nuria Prado Baamonde</string>
     <string name="brigantiaDireccion">Rúa de San Pedro, 79</string>
@@ -34,7 +35,7 @@
     <string name="arteCeltaDireccion">Agoso, 41, \n15886 Ribeira</string>
     <string name="arteCeltaTelefono">+34 981 809 464</string>
     <string name="arteCeltaCorreo">info@pabloleal.com</string>
-    <string name="arteCeltaDescricion">Artesanía con metales, latón, inox, bronce.</string>
+    <string name="arteCeltaDescricion">Artesanía con metais, latón, inox, bronce.</string>
 
     <string name="iagoSalgadoDireccion">Vilanova s/n, Recesende. \n15886 Teo</string>
     <string name="iagoSalgadoTelefono">+34 625876502</string>
@@ -48,24 +49,24 @@
     <string name="macalaXoiasDireccion">Casaldomiro, Teo</string>
     <string name="macalaXoiasTelefono">+34 696501621</string>
     <string name="macalaXoiasCorreo">info@macalajoyas.com</string>
-    <string name="macalaXoiasDescricion">Joyería de autora</string>
+    <string name="macalaXoiasDescricion">Xoiaría de autora</string>
 
     <string name="olgaMartinezDireccion">Travesia de Cacheiras, 12</string>
     <string name="olgaMartinezTelefono">+34 981806550</string>
     <string name="olgaMartinezCorreo">olgamartinezg@hotmail.com</string>
-    <string name="olgaMartinezDescricion">Vestidos para bodas</string>
+    <string name="olgaMartinezDescricion">Vestidos para casamentos</string>
 
     <string name="oliXiraldezArtesan">Oli Xiráldez Ríos</string>
     <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
     <string name="oliXiraldezTelefono">+34 629421544</string>
     <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
-    <string name="oliXiraldezDescricion">Lutier de instrumentos musicales, nombradamente gaitas y flautas.</string>
+    <string name="oliXiraldezDescricion">Lutier de instrumentos musicais, nomeadamente gaitas e frautas.</string>
 
     <string name="rosaMendezArtesan">Rosa Méndez</string>
     <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
     <string name="rosaMendezTelefono">+34 981523146\n+34 667266098</string>
     <string name="rosaMendezCorreo">rosa@rosamendez.com</string>
-    <string name="rosaMendezDescricion">Joyería con vidrio</string>
+    <string name="rosaMendezDescricion">Xoiaría con vidro</string>
 
     <string name="silvereiraArtesan">Juan Jesús Fernández Lamas</string>
     <string name="silvereiraDireccion">Aldea Raíces, 22\n15895 Ames</string>
@@ -82,6 +83,5 @@
     <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
     <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
     <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
-    <string name="tresOficiosDescricion">Ebanistería, diseño y restauración madera-cuero-hierro</string>
-
+    <string name="tresOficiosDescricion">Ebanistería, deseño e restauración madeira-coiro-ferro</string>
 </resources>
