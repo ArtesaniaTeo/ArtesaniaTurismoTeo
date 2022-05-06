@@ -20,7 +20,13 @@ class PabloSeoane : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Traves%C3%ADa+da+Ramallosa,+9,+15883+A+Ramallosa,+A+Coru%C3%B1a/@42.7971596,-8.5503354,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013fd9c70f47:0x9805af1130ee032b!8m2!3d42.7971557!4d-8.5481467")))
         }
-
+        val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 657810611";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
         tv4.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ramallosamusical.com/pablo-seoane")))
         }

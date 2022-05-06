@@ -31,7 +31,13 @@ class BrigantiaOrfebres : AppCompatActivity() {
         instagramBoton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/brigantiaorfebres/")))
         }
-
+        val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 682293304";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
         correoBoton1.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND)
             val recipients = arrayOf("brigantiaorfebres@gmail.com")
