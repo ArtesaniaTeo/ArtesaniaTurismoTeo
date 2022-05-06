@@ -22,7 +22,13 @@ class Silvereira : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Silvereira+Joyas/@42.8343777,-8.6102264,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f021dd97a570f:0xb1a264a2c18d38b!8m2!3d42.8343738!4d-8.6080377")))
         }
-
+        val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 981548659";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
 
 
         tv4.setOnClickListener {

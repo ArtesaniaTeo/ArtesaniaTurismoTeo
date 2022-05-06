@@ -21,7 +21,13 @@ class RosaMendez : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/rosamendez/@42.8992592,-8.6040349,16z/data=!4m5!3m4!1s0xd2f021dd97a570f:0x6eca95668155994a!8m2!3d42.8994243!4d-8.6001832")))
         }
-
+        val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 667266098";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
 
         tv4.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://rosamendez.com/")))

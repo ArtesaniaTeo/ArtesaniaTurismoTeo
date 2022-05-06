@@ -22,7 +22,13 @@ class ArteCelta : AppCompatActivity() {
         tv4.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://www.pabloleal.es/Bienvenida.htm")))
         }
-
+        val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 981809464";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
         correoBoton1.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND)
             val recipients = arrayOf("info@pabloleal.com")

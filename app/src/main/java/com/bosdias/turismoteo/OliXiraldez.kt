@@ -19,7 +19,13 @@ class OliXiraldez : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Oli+Xiraldez/@42.8321619,-8.6000147,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f0241d9b0dbcb:0x22261d9fe1fd124c!8m2!3d42.832158!4d-8.597826")))
         }
-
+        val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 629421544";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
 
         fbBoton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/oli.xiraldez")))

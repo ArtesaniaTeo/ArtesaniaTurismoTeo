@@ -31,6 +31,13 @@ class TresOficios : AppCompatActivity() {
         igBoton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/tresoficios/")))
         }
+        val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 696501621";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
 
         correoBoton1.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND)
