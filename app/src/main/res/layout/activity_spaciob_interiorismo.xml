@@ -258,7 +258,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/sofa"
-                app:tint="#7F000000" />
+                app:tint="#1F000000" />
 
         </LinearLayout>
 
@@ -317,8 +317,8 @@
 
             <ImageButton
                 android:id="@+id/twitter"
-                android:layout_width="70dp"
-                android:layout_height="48dp"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="-20dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
