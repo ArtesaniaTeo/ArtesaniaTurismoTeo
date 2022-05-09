@@ -258,7 +258,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
                 app:srcCompat="@mipmap/sofa"
-                app:tint="#7F000000" />
+                app:tint="#1F000000" />
 
         </LinearLayout>
 

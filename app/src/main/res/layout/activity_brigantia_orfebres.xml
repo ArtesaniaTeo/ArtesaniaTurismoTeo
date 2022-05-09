@@ -235,7 +235,7 @@
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
                     app:srcCompat="@mipmap/trisquel"
-                    app:tint="#3F000000" />
+                    app:tint="#1F000000" />
 
             </LinearLayout>
 
