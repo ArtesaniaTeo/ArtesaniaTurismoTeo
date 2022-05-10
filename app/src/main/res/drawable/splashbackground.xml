@@ -3,9 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:drawable="@color/white"/>
-    <item>
+    <item
+        android:left="20dp"
+        android:right="20dp"
+        android:top= "250dp"
+        android:bottom="250dp">
+
         <bitmap android:src="@drawable/logoapp" />
     </item>
-
-
 </layer-list>

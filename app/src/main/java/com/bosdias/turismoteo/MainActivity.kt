@@ -20,13 +20,8 @@ class MainActivity : AppCompatActivity() {
         val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
         logoTeo.setOnClickListener {
-            val viewIntent = Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://turismo.tekjughjyyjuo.gal"))
-            if (viewIntent.resolveActivity(packageManager) != null) {
-                startActivity(viewIntent)
-            }
-
-
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
         }
 
 
@@ -35,19 +30,13 @@ class MainActivity : AppCompatActivity() {
             (Intent.ACTION_VIEW, Uri.parse("https://www.teo.gal/")))
         }
 
-//       //a ver esto funcionaba:
         val botonFacebook = findViewById<ImageButton>(R.id.botonFacebook)
         botonFacebook.setOnClickListener {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
         }
 
-        //e este non, pero se sacamos a sentenza if si que funciona
-//        val botonfacebook = findViewById<ImageButton>(R.id.botonFacebook)
-//        botonfacebook.setOnClickListener {
-//            val viewIntent1 = Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/"))
-//            if (viewIntent1.resolveActivity(packageManager) != null) { startActivity(viewIntent1) }
-//       }
+
 
         val botonInstagram = findViewById<ImageButton>(R.id.botonInstagram)
         botonInstagram.setOnClickListener {
