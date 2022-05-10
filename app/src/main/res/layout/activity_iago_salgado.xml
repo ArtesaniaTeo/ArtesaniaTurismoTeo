@@ -10,6 +10,7 @@
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
         android:contentDescription="@string/appbar_scrolling_view_behavior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -139,7 +140,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="44dp"
-
                         android:orientation="horizontal">
 
 
@@ -279,7 +279,7 @@
                     android:id="@+id/facebook"
                     android:layout_width="53dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="45dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
@@ -360,4 +360,15 @@
         </LinearLayout>
 
     </ScrollView>
+    <ImageButton
+        android:id="@+id/logoTeo"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/concelloteo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

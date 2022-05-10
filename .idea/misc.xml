@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/drawable/splashbackground.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/drawable/splashscreen.xml" value="0.12" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout-v27/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_alala_couture.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_arte_celta.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_brigantia_orfebres.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_iago_salgado.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_macala_xoias.xml" value="0.2506393861892583" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_main.xml" value="0.13240740740740742" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_olga_martinez.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_oli_xiraldez.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_pablo_seoane.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_rosa_mendez.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_silvereira.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_spaciob_interiorismo.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_splash.xml" value="0.12892603850050657" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_splash_screen.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/ArtesaniaTurismoTeo3/app/src/main/res/layout/activity_tres_oficios.xml" value="0.3625" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/TurismoTeo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.359" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/TurismoTeo/app/src/main/res/drawable/animaboton1.xml" value="0.1065" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/TurismoTeo/app/src/main/res/drawable/animaboton798.xml" value="0.277" />
