@@ -15,7 +15,12 @@ class IagoSalgado : AppCompatActivity() {
         val tv4 = findViewById<TextView>(R.id.tv8)
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Traves%C3%ADa+da+Ramallosa,+9,+15883+A+Ramallosa,+A+Coru%C3%B1a/@42.7971596,-8.5503354,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013fd9c70f47:0x9805af1130ee032b!8m2!3d42.7971557!4d-8.5481467")))

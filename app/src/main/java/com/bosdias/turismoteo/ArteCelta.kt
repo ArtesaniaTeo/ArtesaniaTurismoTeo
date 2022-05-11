@@ -18,6 +18,12 @@ class ArteCelta : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/Pablo+Leal/@42.5518191,-8.9995872,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f39cc616ff0a3:0x8261d7f6fff509f9!8m2!3d42.5518152!4d-8.9973985?hl=es")))
         }
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
+
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val tv4 = findViewById<TextView>(R.id.tv8)
         tv4.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://www.pabloleal.es/Bienvenida.htm")))

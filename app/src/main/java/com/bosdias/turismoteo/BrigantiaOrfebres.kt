@@ -19,7 +19,12 @@ class BrigantiaOrfebres : AppCompatActivity() {
         val instagramBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
 
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Brigantia+Orfebres/@42.881543,-8.5390803,650m/data=!3m2!1e3!4b1!4m5!3m4!1s0xd2effd57b73b745:0xdd8df51f8b70b373!8m2!3d42.8815391!4d-8.5368916")))

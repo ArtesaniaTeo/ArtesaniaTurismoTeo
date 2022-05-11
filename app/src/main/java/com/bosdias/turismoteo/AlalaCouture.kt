@@ -19,7 +19,12 @@ class AlalaCouture : AppCompatActivity() {
         tv4.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alalacouture.com/")))
         }
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Miranda+Priestly/@42.8192119,-8.57669,19z/data=!4m5!3m4!1s0xd2f022be12a2917:0xd27ba767b22b76ae!8m2!3d42.8190842!4d-8.576598")))
