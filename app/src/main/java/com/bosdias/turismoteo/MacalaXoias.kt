@@ -12,6 +12,13 @@ class MacalaXoias : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_macala_xoias)
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
+
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
+
         val tv4 = findViewById<TextView>(R.id.tv8)
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val igBoton = findViewById<ImageButton>(R.id.igBoton)

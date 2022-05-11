@@ -17,7 +17,12 @@ class TresOficios : AppCompatActivity() {
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
 
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/%22TresOficios%22+Rodrigo+Mosquera/@42.7813116,-8.6198432,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f0353c0b8ef11:0x8fdff40917400c68!8m2!3d42.7813211!4d-8.6176898?hl=es")))

@@ -262,7 +262,6 @@
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="220dp"
-                    android:layout_marginStart="25dp"
                     app:srcCompat="@mipmap/rosamendez" />
 
                 <TextView
@@ -294,7 +293,7 @@
                     android:id="@+id/facebook"
                     android:layout_width="53dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
@@ -346,7 +345,7 @@
                     android:id="@+id/info"
                     android:layout_width="55dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
+                    android:layout_marginLeft="135dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
@@ -355,7 +354,6 @@
                     app:srcCompat="@mipmap/logoinformacion"
                     app:tint="#7F000000" />
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

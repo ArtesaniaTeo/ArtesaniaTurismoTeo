@@ -12,7 +12,12 @@ class OliXiraldez : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_oli_xiraldez)
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
         val maps = findViewById<ImageButton>(R.id.maps)

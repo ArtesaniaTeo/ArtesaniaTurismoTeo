@@ -14,6 +14,12 @@ class Silvereira : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_silvereira)
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
+
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val tv4 = findViewById<TextView>(R.id.tv8)
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)

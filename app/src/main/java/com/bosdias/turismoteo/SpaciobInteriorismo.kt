@@ -21,7 +21,12 @@ class SpaciobInteriorismo : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/spaciob/@42.8715567,-8.5540763,17z/data=!3m1!4b1!4m5!3m4!1s0xd2eff547b9250df:0xda314b30cf7d85e7!8m2!3d42.8715528!4d-8.5518876")))
         }
+        val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
+        logoTeo.setOnClickListener {
+            startActivity(Intent
+                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+        }
         val botonTelefono = findViewById<ImageButton>(R.id.botonTelefono)
         botonTelefono.setOnClickListener {
             val phone = "tel: +34 639504102";
