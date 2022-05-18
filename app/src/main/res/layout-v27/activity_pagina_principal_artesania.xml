@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    tools:context=".PaginaPrincipalArtesania">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:showDividers="middle|end"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+
+                <ImageButton
+                    android:id="@+id/boton1"
+                    android:background="#00FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/brigantia"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonbrigantia"
+                    />
+                <ImageButton
+                    android:id="@+id/boton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/oliXiraldez"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonolixiraldez"
+                    />
+                <ImageButton
+                    android:id="@+id/boton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/silvereira"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonsilvereira"
+                    />
+                <ImageButton
+                    android:id="@+id/boton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/spacioBInteriorismo"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonspaciob" />
+
+                <ImageButton
+                    android:id="@+id/boton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/rosamendez"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonrosamendez"
+               />
+
+                <ImageButton
+                    android:id="@+id/boton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/macala"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonmacalaxoias"
+                    />
+                <ImageButton
+                    android:id="@+id/boton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/tresOficios"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botontresoficios" />
+                <ImageButton
+                    android:id="@+id/boton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/arteCelta"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonartecelta"
+                    />
+                <ImageButton
+                    android:id="@+id/boton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/alala"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonalala"
+                    />
+                <ImageButton
+                    android:id="@+id/boton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/iagoSalgado"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botoniagosalgado"
+                   />
+                <ImageButton
+                    android:id="@+id/boton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/pabloSeoane"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonpabloseoane"
+                   />
+                <ImageButton
+                    android:id="@+id/boton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/olgaMartinez"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@mipmap/botonolgamartinez"
+                   />
+                <ImageView
+                    android:id="@+id/lineaVerde2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@mipmap/lineaverde" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/botonFacebook"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/facebookanima"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/facebook"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/botonTwitter"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/animatwitter"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/twitter"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/botonInstagram"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/animainstagram"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/instagram"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/informacionBoton"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/animainformacion"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/logoinformacion"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-180dp"
+                    android:layout_marginBottom="-40dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgTrigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="-40dp"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/maiz"
+                        app:tint="#1F000000" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="monospace"
+        android:text="@string/artesania"
+        android:textAlignment="center"
+        android:textColor="#2a4f31"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/logoTeo"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/tv1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/concelloteo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
