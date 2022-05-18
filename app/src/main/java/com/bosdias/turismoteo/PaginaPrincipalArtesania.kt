@@ -8,12 +8,11 @@ import android.os.Bundle
 
 import android.widget.*
 
-class MainActivity : AppCompatActivity() {
+class PaginaPrincipalArtesania : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.Theme_TurismoTeo)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+        setContentView(R.layout.activity_pagina_principal_artesania)
 
         val tv1 = findViewById<TextView>(R.id.tv1)
 
@@ -35,8 +34,6 @@ class MainActivity : AppCompatActivity() {
                 (Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
         }
 
-
-
         val botonInstagram = findViewById<ImageButton>(R.id.botonInstagram)
         botonInstagram.setOnClickListener {
             startActivity(Intent
@@ -47,8 +44,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
         }
-
-
 
         val brigantiaOrfebre = findViewById<ImageButton>(R.id.boton1)
         brigantiaOrfebre.setOnClickListener {

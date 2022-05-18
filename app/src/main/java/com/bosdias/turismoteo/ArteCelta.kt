@@ -21,8 +21,8 @@ class ArteCelta : AppCompatActivity() {
         val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
 
         logoTeo.setOnClickListener {
-            startActivity(Intent
-                (Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl")))
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
         }
         val tv4 = findViewById<TextView>(R.id.tv8)
         tv4.setOnClickListener {
